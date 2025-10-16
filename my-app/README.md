@@ -37,3 +37,9 @@
 - Responsive car sera principalement utilisée sous mobile (React ?)
 - Ne pas trop surchargé la page ou les fonctionnalités
 - Charte graphique avec du orange/blanc
+
+
+## Choix des technologies
+
+- React car cool pour application mobile avec Vite pour la config car c'est cool et permet de custom la config du projet facilement
+- Framework CSS -> Bootstrap
