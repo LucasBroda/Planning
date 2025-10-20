@@ -57,3 +57,9 @@
 - Un composant profil
 - Dans profil, des composants par rapport à la gestion du budget, pas prioritaire
 - Un composant couleur ? Pour gérer la couleur de l'activité
+- CalendarGrid ou WeekView : Le composant principal qui organise les jours
+- DayColumn : Composant pour chaque jour de la semaine
+- TimeSlot : Composant pour les créneaux horaires dans chaque jour
+- ActivityBlock : Composant pour afficher une activité dans le calendrier
+- ActivityProvider : Context/Provider pour gérer l'état global des activités
+- CalendarProvider : Pour gérer la date courante, la vue (semaine/mois)
