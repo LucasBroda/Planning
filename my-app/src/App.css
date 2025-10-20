@@ -17,12 +17,20 @@
 .calendrier-container .row {
   background-color: transparent !important;
   color: rgba(255, 255, 255, 0.87) !important;
+  margin: 0;
 }
 
 .calendrier-container .col,
 .calendrier-container .col-1 {
   background-color: transparent !important;
   color: rgba(255, 255, 255, 0.87) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px;
+}
+
+.calendrier-container .col:last-child,
+.calendrier-container .col-1:last-child {
+  border-right: none;
 }
 
 .calendrier-container .border-bottom {
@@ -31,4 +39,9 @@
 
 .calendrier-container .font-weight-bold {
   color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.calendrier-container .col-1 {
+  border-right: 2px solid rgba(255, 255, 255, 0.3) !important;
+  font-weight: bold;
 }
