@@ -1,8 +1,19 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-
   color: rgba(255, 255, 255, 0.87);
   background-color: #292828;
+}
 
+html, body {
+  background-color: #292828;
+  color: rgba(255, 255, 255, 0.87);
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: #292828;
+  color: rgba(255, 255, 255, 0.87);
+  min-height: 100vh;
 }
 

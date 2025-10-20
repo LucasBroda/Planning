@@ -10,9 +10,11 @@ interface CalendrierProps {
 
 const Calendrier: React.FC<CalendrierProps> = ({ dateDebut }) => {
     return (
-        <div className="container">
-            <TableauHeader dateDebut={dateDebut} />
-            <TableauBody dateDebut={dateDebut} />
+        <div className="calendrier-container">
+            <div className="container">
+                <TableauHeader dateDebut={dateDebut} />
+                <TableauBody dateDebut={dateDebut} />
+            </div>
         </div>
     );
 };
