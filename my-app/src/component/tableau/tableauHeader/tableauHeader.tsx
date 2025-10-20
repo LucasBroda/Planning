@@ -18,6 +18,14 @@ const TableauHeader: React.FC<TableauHeaderProps> = ({ dateDebut }) => {
         return jours;
     };
 
+    const getMoisPourDate = (date: Date) => {
+        const currentDate = new Date(date);
+        
+        const mois = currentDate.getMonth() + 1;
+
+        return mois;
+    }
+
     const datesDeLaSemaine = getJourDeLaSemaine(dateDebut);
 
     return (
@@ -26,7 +34,7 @@ const TableauHeader: React.FC<TableauHeaderProps> = ({ dateDebut }) => {
                 {joursDeLaSemaine.map((jour, index) => (
                     <div key={`${jour}-${index}`} className="col">
                         <div>{jour}</div>
-                        <div>{datesDeLaSemaine[index].getDate()}</div>
+                        <div>{datesDeLaSemaine[index].getDate()}/{getMoisPourDate(datesDeLaSemaine[index])}</div>
                     </div>
                 ))}
             </div>

@@ -1,4 +1,3 @@
-/* Styles pour le calendrier */
 .calendrier-container {
   background-color: #292828 !important;
   color: rgba(255, 255, 255, 0.87) !important;
@@ -9,7 +8,6 @@
   background-color: transparent !important;
 }
 
-/* Surcharger les styles Bootstrap */
 .calendrier-container .row {
   background-color: transparent !important;
   color: rgba(255, 255, 255, 0.87) !important;
@@ -21,12 +19,10 @@
   color: rgba(255, 255, 255, 0.87) !important;
 }
 
-/* Bordures adaptées au thème sombre */
 .calendrier-container .border-bottom {
   border-bottom-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-/* Forcer les couleurs Bootstrap */
 .calendrier-container .font-weight-bold {
   color: rgba(255, 255, 255, 0.87) !important;
 }

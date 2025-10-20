@@ -12,8 +12,12 @@ const Calendrier: React.FC<CalendrierProps> = ({ dateDebut }) => {
     return (
         <div className="calendrier-container">
             <div className="container">
-                <TableauHeader dateDebut={dateDebut} />
-                <TableauBody dateDebut={dateDebut} />
+                <div className="row justify-content-center">
+                    <div className="col-12">
+                        <TableauHeader dateDebut={dateDebut} />
+                        <TableauBody dateDebut={dateDebut} />
+                    </div>
+                </div>
             </div>
         </div>
     );
