@@ -2,10 +2,16 @@
   background-color: #292828 !important;
   color: rgba(255, 255, 255, 0.87) !important;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .calendrier-container .container {
   background-color: transparent !important;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .calendrier-container .row {
