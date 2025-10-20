@@ -2,7 +2,7 @@
 
 | Tâche | Statut | Priorité | Assigné à | Date limite |
 |-------|--------|----------|-----------|-------------|
-| Définir les fonctionnalités pour le planning | 🔄 En cours | Haute | Lucas | TBD |
+| Définir les fonctionnalités pour le planning | ✅ Terminé | Haute | Lucas | TBD |
 | Conception du design UI/UX | ⏳ À faire | Haute | Lucas | TBD |
 | Sélection des technologies | ⏳ À faire | Moyenne | Lucas | TBD |
 | Configuration du déploiement privé | ⏳ À faire | Basse | Lucas | TBD |
@@ -43,3 +43,17 @@
 
 - React car cool pour application mobile avec Vite pour la config car c'est cool et permet de custom la config du projet facilement
 - Framework CSS -> Bootstrap
+
+
+## Décomposition en composants etc 
+
+- Une modale (Avec possibilité de sélectionner la date de l'activité, la durée etc, le type de l'activité etc ...)
+- Un composant calendrier header où on affiche seulement les dates du calendrier sous forme jour/mois
+- Un composant calendrier body où on appelera la modal pour ajouter une activité
+- Un composant nextWeek ou un truc du jour que l'on appelera dans calendrier header qui permet de passer d'une semaine à l'autre
+- Un composant sidebar qui sera à droite
+- Dans sidebar un composant filter ?
+- Des composants respectifs pour gérer les semaines ou les années
+- Un composant profil
+- Dans profil, des composants par rapport à la gestion du budget, pas prioritaire
+- Un composant couleur ? Pour gérer la couleur de l'activité
