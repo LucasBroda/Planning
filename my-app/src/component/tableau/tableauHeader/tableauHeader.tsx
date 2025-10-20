@@ -24,7 +24,7 @@ const TableauHeader: React.FC<TableauHeaderProps> = ({ dateDebut }) => {
         <div className="container">
             <div className="row text-center font-weight-bold border-bottom">
                 {joursDeLaSemaine.map((jour, index) => (
-                    <div key={index} className="col">
+                    <div key={`${jour}-${index}`} className="col">
                         <div>{jour}</div>
                         <div>{datesDeLaSemaine[index].getDate()}</div>
                     </div>
