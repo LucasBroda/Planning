@@ -37,7 +37,6 @@ const TableauBody: React.FC<TableauBodyProps> = ({ dateDebut }) => {
     return (
         
         <div className="container">
-            <div className="container">
             <div className="row text-center font-weight-bold border-bottom">
                 <div className="col-1"></div>
                 {joursDeLaSemaine.map((jour, index) => (
@@ -47,7 +46,6 @@ const TableauBody: React.FC<TableauBodyProps> = ({ dateDebut }) => {
                     </div>
                 ))}
             </div>
-        </div>
             {heures.map((heure, index) => (
                 <div key={heure} className="row border-bottom" style={{ height: '40px' }}>
                     <div className="col-1 d-flex align-items-center font-weight-bold">{heure}:00</div>
