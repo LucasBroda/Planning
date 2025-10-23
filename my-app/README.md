@@ -38,6 +38,7 @@
 - Ne pas trop surchargé la page ou les fonctionnalités
 - Charte graphique avec du orange/blanc
 - Sur la case de base quand on voit le calendrier seulement mettre la couleur pour l'activité, son nom, ainsi que le nom de la personne, on pourra avoir les détails si on clique sur l'activité
+- Pour le style faire en sorte de mettre la sidebar sur le côté gauche, que le calendrier soit au sein de 2 divs afin de faire en sorte que le calendrier ne prenne pas toute la page et que se soit clean (ex: un conteneur global où il y aura le titre + la semaine, puis dedans une autre div contenant d'autres fonctionnalités, donc ici tableauHeader, et enfin une autre avec tableauBody)
 
 
 ## Choix des technologies
