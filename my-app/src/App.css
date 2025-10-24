@@ -201,15 +201,29 @@ body {
   border-color: var(--color-primary-orange) !important;
   color: white !important;
   font-weight: 600 !important;
-  box-shadow: 0 2px 4px rgba(255, 122, 0, 0.3) !important;
+  box-shadow: 0 3px 6px rgba(255, 122, 0, 0.4) !important;
+  border-width: 2px !important;
 }
 
 .sidebar .btn-orange:hover {
   background-color: var(--color-secondary-orange) !important;
   border-color: var(--color-secondary-orange) !important;
   color: white !important;
-  box-shadow: 0 4px 6px rgba(255, 122, 0, 0.4) !important;
+  box-shadow: 0 4px 8px rgba(255, 122, 0, 0.5) !important;
   transform: translateY(-1px);
+}
+
+.sidebar .btn-orange:focus {
+  background-color: var(--color-primary-orange) !important;
+  border-color: var(--color-primary-orange) !important;
+  color: white !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 122, 0, 0.5) !important;
+}
+
+.sidebar .btn-orange:active {
+  background-color: var(--color-secondary-orange) !important;
+  border-color: var(--color-secondary-orange) !important;
+  color: white !important;
 }
 
 .sidebar .btn-outline-orange {
@@ -227,16 +241,24 @@ body {
 }
 
 .sidebar .btn-outline-secondary {
-  border-color: rgba(255, 255, 255, 0.3) !important;
-  color: rgba(255, 255, 255, 0.8) !important;
-  background-color: transparent !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
   font-weight: 500 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
 }
 
 .sidebar .btn-outline-secondary:hover {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  border-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgba(255, 122, 0, 0.1) !important;
+  border-color: var(--color-primary-orange) !important;
   color: white !important;
+  box-shadow: 0 2px 4px rgba(255, 122, 0, 0.2) !important;
+}
+
+.sidebar .btn-outline-secondary:focus {
+  border-color: var(--color-primary-orange) !important;
+  color: white !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 122, 0, 0.25) !important;
 }
 
 /* Responsive */
