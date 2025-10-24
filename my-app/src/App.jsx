@@ -1,10 +1,15 @@
 import './App.css'
 import Calendrier from './component/tableau/calendrier'
+import { CalendarProvider } from './contexts/CalendarContext'
+import { ActivityProvider } from './contexts/ActivityContext'
 
 function App() {
-
   return (
-    <Calendrier dateDebut={new Date()} />
+    <CalendarProvider>
+      <ActivityProvider>
+        <Calendrier />
+      </ActivityProvider>
+    </CalendarProvider>
   )
 }
 
